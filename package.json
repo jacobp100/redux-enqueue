@@ -1,8 +1,8 @@
 {
   "name": "redux-enqueue",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Simple queue system for redux",
-  "main": ".eslintrc.js",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.15.2",

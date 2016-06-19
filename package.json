@@ -1,6 +1,6 @@
 {
   "name": "redux-enqueue",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple queue system for redux",
   "main": "index.js",
   "dependencies": {},

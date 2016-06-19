@@ -71,7 +71,7 @@ export const loadMessages = id => async (dispatch, getState) => {
     const { currentMessages } = getState().messages;
     if (currentMessages[id]) return;
     const messages = await api.loadMessages(id);
-    dispatch({ type: SET_MESSAGES, messages });
+    dispatch({ type: SET_MESSAGES, id, messages });
   } finally {
     completionHandler();
   }

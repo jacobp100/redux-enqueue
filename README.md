@@ -1,3 +1,5 @@
+**I'd strongly advise against using this. Redux is not good with handling asynchronous actions, and this will not change that. There's almost always better options.**
+
 # redux-enqueue
 
 Simple queue system for redux. Use with redux-thunk.
